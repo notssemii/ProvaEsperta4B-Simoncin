@@ -1,11 +1,48 @@
 <%= render partial: 'components/provaesperta/navbar', locals: {
-    codice: "CODICE: EXTRA | -20% sull'outlet. -30% sopra i 60€",
-    uomo: "Uomo",
-    donna: "Donna",
-    bambini: "Bambini",
-    sport: "Sport",
-    heritage: "Heritage",
-    culture: "Culture",
-    sales: "Mid-Season Sales",
+    codice: "SCONTI DI APERTURA",
+    products: "Prodotti",
+    design: "Design",
+    art: "Arte",
+    our_works: "I nostri lavori",
+    estimate: "Preventivi",
+    sales: "Sconti di apertura",
+}%>
+
+<%= render partial: 'components/provaesperta/description', locals: {
+    welcome: "Benvenuti in Punto Zero Architettura",
+    description: "Noi di Punto Zero Architettura siamo il tuo studio di fiducia per trasformare visioni in realtà concrete. Ci occupiamo di progettazione architettonica, interior design e ristrutturazioni, offrendo servizi su misura sia a clienti privati che ad aziende. La nostra missione è creare progetti innovativi e funzionali, che rispondano alle esigenze e ai desideri di chi li vive o li utilizza.",
+    button_description: "Scopri di più",
+}%>
+
+<%= render partial: 'components/provaesperta/hero', locals: {
+    hero1: "I nostri progetti di design e architettura moderni",
+    hero2: "Scopri i nostri lavori",
+}%>
+
+<%= render partial: 'components/provaesperta/gallery', locals: {
+    gallery_title: "Galleria dei nostri progetti",
+    gallery1: "/images/gallery1.png",
+    gallery2: "/images/gallery2.png",
+    gallery3: "/images/gallery3.png",
+    gallery4: "/images/gallery4.png",
+    gallery5: "/images/gallery5.png",
+    gallery_button: "Visualizza la galleria completa",
+}%>
+
+<%= render partial: 'components/provaesperta/strength', locals: {
+    strength_title: "I nostri punti di forza",
+    strength_image1: "/images/personale.png",
+    strength1: "Personale qualificato",
+    strength1_description: "Il nostro team è composto da professionisti esperti e appassionati, pronti a realizzare i tuoi sogni.",
+    strength_image2: "/images/creativity.png",
+    strength2: "Creatività e innovazione",
+    strength2_description: "Siamo sempre alla ricerca di nuove idee e soluzioni per rendere ogni progetto unico e speciale.",
+    strength_image3: "/images/environment.png",
+    strength3: "Sostenibilità ambientale",
+    strength3_description: "Ci impegniamo a utilizzare materiali e tecniche che rispettano l'ambiente, creando spazi belli e sostenibili.",
+}%>
+
+<%= render partial: 'components/provaesperta/collaborators', locals: {
+    collabs_title: "I nostri collaboratori",
 
 }%>
