@@ -21,11 +21,11 @@
 
 <%= render partial: 'components/provaesperta/gallery', locals: {
     gallery_title: "Galleria dei nostri progetti",
-    gallery1: "/images/gallery1.png",
-    gallery2: "/images/gallery2.png",
-    gallery3: "/images/gallery3.png",
-    gallery4: "/images/gallery4.png",
-    gallery5: "/images/gallery5.png",
+    gallery1: "/images/gallery1.jpg",
+    gallery2: "/images/gallery2.jpg",
+    gallery3: "/images/gallery3.jpg",
+    gallery4: "/images/gallery4.jpg",
+    gallery5: "/images/gallery5.jpg",
     gallery_button: "Visualizza la galleria completa",
 }%>
 
@@ -42,7 +42,94 @@
     strength3_description: "Ci impegniamo a utilizzare materiali e tecniche che rispettano l'ambiente, creando spazi belli e sostenibili.",
 }%>
 
-<%= render partial: 'components/provaesperta/collaborators', locals: {
-    collabs_title: "I nostri collaboratori",
-
+<%= render partial: 'components/provaesperta/clients', locals: {
+    clients_title: "Le recensioni dei nostri clienti",
+    clients_image1: "/images/clients1.jpg",
+    clients_description1: "Giada Rossi",
+    clients_link1: "Creatività, qualità e innovazione. Punto Zero Architettura trasforma ogni progetto in eccellenza.",
+    clients_image2: "/images/clients2.jpg",
+    clients_description2: "Frank Gioiello",
+    clients_link2: "Design innovativo e attenzione ai dettagli: Punto Zero Architettura crea spazi unici e funzionali.",
+    clients_image3: "/images/clients3.jpg",
+    clients_description3: "Giacomo Bianchi",
+    clients_link3: "Architettura moderna e soluzioni creative: Punto Zero Architettura trasforma ogni spazio in un'opera unica.",
 }%>
+
+<%= render partial: 'components/provaesperta/footer', locals: { 
+    titolo_newsletter: 'Iscriviti alla newsletter',
+    sconto_acquisto: 'Ricevi il 15% di sconto sul primo acquisto',
+    social1: '/images/instagram.png',
+    social2: '/images/youtube.png',
+    social3: '/images/linkedin.png',
+    social4: '/images/strava.png',
+    titoloFooter1: 'Assistenza',
+    titoloFooter2: 'Informazioni su',
+    titoloFooter3: 'World',
+    titoloFooter4: 'Shortcuts',
+    stelleRecensioni: '4.7/5',
+    recensioni: 'Valutazione media Feedaty su 14551 recensioni',
+    pagamento1: '/images/visa.png',
+    pagamento2: '/images/mastercard.png',
+    pagamento3: '/images/maestro.png',
+    pagamento4: '/images/americanexpress.png',
+    pagamento5: '/images/discover.png',
+    pagamento6: '/images/dinersclub.png',
+    pagamento7: '/images/googlepay.png',
+    pagamento8: '/images/paypal.png',
+    copyright: 'Copyright 2021-2024 Diadora S.p.A. All rights reserved.',
+    footer1: 'Privacy',
+    footer2: 'Cookie',
+    footer3: 'Termini e condizioni',
+    footer4: 'Sitemap',
+
+
+assistenza_links: 
+[
+  "Dashboard assistenza", 
+  "Contattaci", 
+  "Il tuo account", 
+  "Traccia il tuo ordine", 
+  "Spedizioni e Consegne", 
+  "Resi e Rimborsi", 
+  "Pagamenti e Sicurezza", 
+  "Registrazione e Ordini", 
+  "Sicurezza prodotto", 
+  "Avvisi e richiami prodotto",
+],
+
+informazioni_links: 
+[
+    "Guida alle taglie",
+    "Lavora con noi",
+    "Area Download",
+    "Corporate B2B",
+    "Store Locator",
+    "Dichiarazioni di conformità e Note Informative",
+    "Bilanci di Sostenibilità - Archivio",
+],
+
+world_links: 
+[
+    "Diadora World",
+    "Sostenibilità",
+    "Tecnologie",
+    "Running Shoe Finder",
+    "Atleti ed Atlete",
+    "Sneaker Agenda",
+],
+
+shortcuts_links:
+[
+    "Run Valley",
+    "Il condominio dello sport",
+    "Abbigliamento Termico",
+    "Scarpe Made in Italy",
+    "Scarpe Trail Running",
+    "Scarpe Bianche",
+    "Scarpe Nere",
+    "Equipe",
+    "B.560",
+    "Mercury",
+    "Mythos Propulsion 280",
+],
+ } %>
