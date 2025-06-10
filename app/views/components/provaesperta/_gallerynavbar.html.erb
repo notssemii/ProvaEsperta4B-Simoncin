@@ -12,16 +12,18 @@
   <h2 class="text-2xl font-bold mb-7"><%= title_gallery %></h2>
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 w-4/5">
     <div class="bg-gray-200 p-4 rounded-lg h-96">
-      <img src="/images/gallery1.jpg" alt="Geometrie di Vetro — Visione d&rsquo;Avanguardia" class="w-full h-52 object-cover rounded-lg mb-2">
+      <img src="/images/galleryshow1.jpg" alt="Geometrie di Vetro — Visione d&rsquo;Avanguardia" class="w-full h-52 object-cover rounded-lg mb-2">
       <p class="text-center"><%= gallery_title1 %></p>
       <div class="flex items-center justify-center">
-          <button class="mt-6 px-6 py-2 bg-neutral-800 text-white font-bold rounded hover:bg-blue-700 transition duration-300">Visualizza la galleria completa</button>
+          <button class="mt-6 px-6 py-2 bg-neutral-800 text-white font-bold rounded-xl hover:bg-blue-700 transition duration-300"><%= viewfullgallery %></button>
       </div>
     </div>
     <div class="bg-gray-200 p-4 rounded-lg h-96">
       <img src="/images/galleryshow2.jpg" alt="Gallery" class="w-full h-52 object-cover rounded-lg mb-2">
-
       <p class="text-center">Progetto 2</p>
+      <div class="flex items-center justify-center">
+          <button class="mt-6 px-6 py-2 bg-neutral-800 text-white font-bold rounded-xl hover:bg-blue-700 transition duration-300"><%= viewfullgallery %></button>
+      </div>
     </div>
     <div class="bg-gray-200 p-4 rounded-lg h-96">
       <img src="/images/galleryX.jpg" alt="Gallery" class="w-full h-52 object-cover rounded-lg mb-2">
