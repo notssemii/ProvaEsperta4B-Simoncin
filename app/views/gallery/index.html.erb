@@ -1,6 +1,43 @@
 <%= render partial: 'components/provaesperta/gallerynavbar', locals: {
     codice: "SCONTI DI APERTURA",
+    big_logo: "/images/BigLogo.jpg",
+    logo: "/images/logo.png",
+    gallery_home: "Home",
+    gallery_prodotti: "Prodotti",
+    gallery_arts: "Arte",
+    gallery_estimate: "Preventivi",
+    gallery_sales: "Sconti di apertura",
+}%>
+
+<%= render partial: 'components/provaesperta/galleryshow', locals: {
     title_gallery: "Galleria dei nostri progetti",
     gallery_title1: "Geometrie di Vetro — Visione d’Avanguardia",
-    viewfullgallery: "Visualizza la galleria completa"
+    gallery_title2: "Simmetria Urbana: Riflessi di Vetro e Acciaio",
+    gallery_title3: "Contrasti Urbani — Geometrie in Equilibrio",
+    gallery_title4: "Luce Strutturata — Eleganza tra Cemento e Vetro",
+    gallery_title5: "Abitare il Silenzio — Geometrie tra Natura e Design",
+    gallery_title6: "Sporgenze Urbane — Materia e Volume in Dialogo",
+    gallery_title7: "Linee Vivibili — Un’Idea di Casa Contemporanea",
+    gallery_title8: "Teatro della Luce — Architettura in Cerchi e Contrasti",
+    viewfullgallery: "Scopri di più su questo progetto",
+    galleryHomeButton: "Torna alla Home",
 }%>
+
+<%= render partial: 'components/provaesperta/footer', locals: { 
+    titolo_newsletter: 'Iscriviti alla newsletter',
+    sconto_acquisto: 'Usa il codice sconto "APERTURA" per il tuo primo acquisto',
+    social1: '/images/instagram.png',
+    social2: '/images/facebook.png',
+    social3: '/images/x.png',
+    titoloFooter1: 'Assistenza',
+    titoloFooter2: 'Informazioni su',
+    titoloFooter3: 'World',
+    titoloFooter4: 'Shortcuts',
+    stelleRecensioni: '4.6/5',
+    recensioni: 'Valutazione media Trustpilot su 413 recensioni',
+    copyright: 'Copyright 2021-2024 PZA S.p.A. All rights reserved.',
+    footer1: 'Privacy',
+    footer2: 'Cookie',
+    footer3: 'Termini e condizioni',
+    footer4: 'Sitemap',
+ } %>
